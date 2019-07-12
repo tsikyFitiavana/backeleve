@@ -14,7 +14,7 @@ const mongoose = require('mongoose');
 
 const EleveSchema = mongoose.Schema({
     
-    _id: {type:Number, required:true},
+    
     nom: String,
     prenom: String,
     age: Number,

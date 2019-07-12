@@ -73,8 +73,6 @@ exports.create = (req, res) => {
     // Create a eleve
     // const nom = ''
     const eleve = new Eleve({
-        
-        _id: req.body.id,
         nom: req.body.nom || "No eleve title", 
         prenom: req.body.prenom,
         age: req.body.age,
